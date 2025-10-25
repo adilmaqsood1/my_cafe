@@ -41,7 +41,7 @@ const HowItWorks = () => {
 
   return (
     <div className="how-it-works">
-      {/* Product Specs Section */}
+    
       <section className="product-specs">
         <div className="specs-content">
           <div className="specs-text">
