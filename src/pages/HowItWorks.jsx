@@ -67,7 +67,7 @@ const HowItWorks = () => {
         </div>
       </section>
 
-      {/* Benefits Section */}
+      
       <section className="benefits">
         <div className="benefits-content">
           <div className="benefits-image">
