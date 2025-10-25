@@ -91,7 +91,6 @@ const About = () => {
 
 
 
-
   
       <section className="faq">
         <div className="faq-content">
