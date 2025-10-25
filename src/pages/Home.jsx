@@ -6,25 +6,25 @@ const Home = () => {
       name: "MIELLE COUNTERTOP",
       brand: "By Mielle",
       price: "$ 240.099",
-      image: "☕"
+      image: "/coffe_machine/coffee-machine.png"
     },
     {
       name: "DELONGHI MAESTOSA",
       brand: "By Delonghi",
       price: "$ 257.199",
-      image: "☕"
+      image: "/coffe_machine/Espresso-machine.png"
     },
     {
       name: "PHILIPS ESPRESSO",
       brand: "By Philips",
       price: "$ 260.299",
-      image: "☕"
+      image: "/coffe_machine/philips-coffee-machine.png"
     },
     {
       name: "NESPRESSO GRAN",
       brand: "By Nespressomaster",
       price: "$ 245.899",
-      image: "☕"
+      image: "/coffe_machine/pngtree-high-tech-coffee-maker-for-home.png"
     }
   ];
 
@@ -35,10 +35,9 @@ const Home = () => {
   return (
     <div className="home">
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero h-[160vh]">
         <div className="hero-content">
           <div className="hero-text">
-            <h1>MAJESTY COFFEE</h1>
             <p>
               Discover the secret to making coffee shop worthy drinks at home 
               with a coffee espresso machine.
@@ -46,13 +45,10 @@ const Home = () => {
             <button className="explore-btn">Explore Coffee Machine →</button>
           </div>
           <div className="hero-image">
-            <div className="coffee-machine">
-              <div className="machine-body">☕</div>
               <div className="machine-info">
                 <h3>NOVA SIMONELLI</h3>
                 <p>Nuova Simonelli New Appia 5 is equipped with a semi-automatic brewing system and a boiler-type heat exchanger.</p>
               </div>
-            </div>
           </div>
         </div>
       </section>
@@ -82,7 +78,9 @@ const Home = () => {
         <div className="products-grid">
           {coffeeProducts.map((product, index) => (
             <div key={index} className="product-card">
-              <div className="product-image">{product.image}</div>
+              <div className="product-image">
+                <img src={product.image} alt={product.name} />
+              </div>
               <h3>{product.name}</h3>
               <p className="brand">{product.brand}</p>
               <p className="price">{product.price}</p>
