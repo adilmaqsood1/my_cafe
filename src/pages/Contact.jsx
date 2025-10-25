@@ -3,7 +3,7 @@ import './Contact.css';
 const Contact = () => {
   const handleNewsletterSubmit = (e) => {
     e.preventDefault();
-    // Handle newsletter subscription
+  
     alert('Thank you for subscribing to our newsletter!');
   };
 
