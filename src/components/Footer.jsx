@@ -56,11 +56,11 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Main Footer Section */}
+        
       <div className="footer-main">
         <div className="footer-content">
           <div className="footer-brand">
-            <h1>MAJESTY COFFEE</h1>
+            <h1>ADIL'S COFFEE</h1>
           </div>
           
           <div className="footer-bottom">
