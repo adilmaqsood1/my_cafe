@@ -96,7 +96,6 @@ const About = () => {
 
 
 
-
   
   
       <section className="faq">
