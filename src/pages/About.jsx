@@ -87,7 +87,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* FAQ Section */}
+  
       <section className="faq">
         <div className="faq-content">
           <div className="faq-text">
