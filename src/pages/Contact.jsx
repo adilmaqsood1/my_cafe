@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      {/* Newsletter Section */}
+   
       <section className="newsletter">
         <div className="newsletter-content">
           <div className="newsletter-text">
