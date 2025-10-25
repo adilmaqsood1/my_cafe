@@ -34,7 +34,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      {/* Hero Section */}
+     
       <section className="hero h-[160vh]">
         <div className="hero-content">
           <div className="hero-text">
